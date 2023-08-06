@@ -17,3 +17,5 @@ methCall.then(
   (data) => console.log(data),
   (err) => console.log("Error reading file") 
 );
+
+//Already ran 'npm install --save prompt-sync' to install and save to package.json, ptompt-sync.
