@@ -18,3 +18,5 @@ console.log("After calling promise")
 
 /*The order in which the console logs are executed tell you that the statements after the promise call are executed
 one after the other and the promise is simultaneouly getting resolved or rejected.*/
+
+// I think this file forms part of one of the labs in the React course
