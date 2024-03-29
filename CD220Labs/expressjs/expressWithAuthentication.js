@@ -88,7 +88,7 @@ app.post("/register", (req,res) => {
   return res.status(404).json({message: "Unable to register user."});
 });
 
-app.get("/auth/get_message", (req,res) => {
+app.get("/auth/get_message", (req,res) => { //In this end-point, is allowed only for authenticated users
   return res.status(200).json({message: "Hello, You are an authenticated user. Congratulations!"});
 })
 
