@@ -30,3 +30,5 @@ app.listen(3333, () => {
     console.log(`Listening at http://localhost:3333`)
 })
 
+/* This server branches and the requests based on the end points and uses routers to handle them.
+All the /user endpoints are handled by userRouter and /item endpoints are handled by itemRouter.*/
